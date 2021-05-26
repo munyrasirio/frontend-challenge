@@ -22,6 +22,15 @@ Como o _mock server_ possui padrões de _query_ limitados, foram feitas duas ada
 - Inclusão de um _ID_ em cada membro;
 - Inclusão do campo "_fullname_" para possibilitar a busca por nome/sobrenome dos membros.
 
+## Sobre a Estrutura do Projeto
+
+Optou-se por estruturar o projeto de forma modular, onde cada componente ou módulo (página) pode possuir três arquivos básicos além do _index.js_, quando necessário:
+- _Container_: Possui o nome do componente/módulo e abriga toda a lógica do mesmo;
+- _View_: renderiza a _view_ em si, recebendo o que for necessário do _container_;
+- _Style_: estilização em geral;
+
+Os _hooks_ foram unidos todos em somente uma pasta, pois abrigavam estados globais da aplicação.
+
 ## Como começar
 
 Após clonar o projeto, realizar a instalação das dependências por meio do NPM.
