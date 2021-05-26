@@ -17,6 +17,6 @@ export default function Member() {
   if(member !== null) {    
     return <MemberView {...{member}} />
   } else {
-    return (<div>alo</div>)
+    return (<div>Aguarde o carregamento...</div>)
   }
 }
