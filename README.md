@@ -71,6 +71,6 @@ A tela possui:
 - Filtro por estados;
 - Ordenação por nome _ASC_ e _DESC_.
 
-## Membro (checkout)
+## Membro
 
 Traz os dados do membro selecionado na tela anterior.
